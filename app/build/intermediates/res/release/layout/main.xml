@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgpitch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="high range"
+            android:id="@+id/highradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="middle range"
+            android:id="@+id/middleradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="low range"
+            android:id="@+id/lowradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button"
+            android:id="@+id/speechbutton" android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_button"
+            android:id="@+id/cancelbutton" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_button"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/stopbutton" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_button"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/restartbutton" />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/normaltext"
+        android:text="VISUALIZED SPEECH"/>
+
+
+
+    <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/visualization"
+            android:text="NORMAL TEXT"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>
+
+<!-- From: file:/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample%20복사본/app/src/main/res/layout/main.xml -->

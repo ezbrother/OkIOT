@@ -1,0 +1,120 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/DaumSpeechOpenApiAndroidSample.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ant.properties
+* build.xml
+* docs/
+* docs/ChangeLog.html
+* docs/apidocs/
+* docs/apidocs/allclasses-frame.html
+* docs/apidocs/allclasses-noframe.html
+* docs/apidocs/constant-values.html
+* docs/apidocs/deprecated-list.html
+* docs/apidocs/help-doc.html
+* docs/apidocs/index-all.html
+* docs/apidocs/index.html
+* docs/apidocs/net/
+* docs/apidocs/net/daum/
+* docs/apidocs/net/daum/mf/
+* docs/apidocs/net/daum/mf/speech/
+* docs/apidocs/net/daum/mf/speech/api/
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizeListener.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerActivity.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerClient.Builder.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerClient.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerManager.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerSurfaceView.Renderer.html
+* docs/apidocs/net/daum/mf/speech/api/SpeechRecognizerSurfaceView.html
+* docs/apidocs/net/daum/mf/speech/api/TextToSpeechClient.Builder.html
+* docs/apidocs/net/daum/mf/speech/api/TextToSpeechClient.html
+* docs/apidocs/net/daum/mf/speech/api/TextToSpeechListener.html
+* docs/apidocs/net/daum/mf/speech/api/TextToSpeechManager.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizeListener.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerActivity.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerClient.Builder.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerClient.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerManager.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerSurfaceView.Renderer.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/SpeechRecognizerSurfaceView.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/TextToSpeechClient.Builder.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/TextToSpeechClient.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/TextToSpeechListener.html
+* docs/apidocs/net/daum/mf/speech/api/class-use/TextToSpeechManager.html
+* docs/apidocs/net/daum/mf/speech/api/package-frame.html
+* docs/apidocs/net/daum/mf/speech/api/package-summary.html
+* docs/apidocs/net/daum/mf/speech/api/package-tree.html
+* docs/apidocs/net/daum/mf/speech/api/package-use.html
+* docs/apidocs/overview-tree.html
+* docs/apidocs/package-list
+* docs/apidocs/resources/
+* docs/apidocs/resources/bkg_gradient.gif
+* docs/apidocs/resources/inherit.gif
+* docs/apidocs/stylesheet.css
+* docs/index.html
+* docs/public/
+* docs/public/css/
+* docs/public/css/bootstrap-responsive.css
+* docs/public/css/bootstrap-responsive.min.css
+* docs/public/css/bootstrap.css
+* docs/public/css/bootstrap.min.css
+* docs/public/css/docs.css
+* docs/public/img/
+* docs/public/img/glyphicons-halflings-white.png
+* docs/public/img/glyphicons-halflings.png
+* docs/public/img/grid-18px-masked.png
+* docs/public/img/image.png
+* docs/public/js/
+* docs/public/js/application.js
+* docs/public/js/bootstrap.js
+* docs/public/js/bootstrap.min.js
+* docs/public/js/jquery.js
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/armeabi/libdialoid-apklib.so => app/src/main/jniLibs/armeabi/libdialoid-apklib.so
+* libs/daum-speech-openapi-2.1.jar => app/libs/daum-speech-openapi-2.1.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

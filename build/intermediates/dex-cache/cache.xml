@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample/app/libs/daum-speech-openapi-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2fca3c7a7b21827d45248e62bde5851f1b15ea8">
+        <dex dex="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample/app/build/intermediates/pre-dexed/debug/daum-speech-openapi-2.1-0101235ad829af12b8c5ae6e3d877eabcee34d34.jar" />
+    </item>
+    <item
+        jar="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample 복사본 2/app/libs/daum-speech-openapi-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2fca3c7a7b21827d45248e62bde5851f1b15ea8">
+        <dex dex="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample 복사본 2/app/build/intermediates/pre-dexed/debug/daum-speech-openapi-2.1-dd05122ecc516608b2dfd87e3b3bfa4bf5538f4b.jar" />
+    </item>
+    <item
+        jar="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample 복사본/app/libs/daum-speech-openapi-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2fca3c7a7b21827d45248e62bde5851f1b15ea8">
+        <dex dex="/Users/ezbrother/AndroidStudioProjects/DaumSpeechOpenApiAndroidSample 복사본/app/build/intermediates/pre-dexed/debug/daum-speech-openapi-2.1-d3c464ccdfa89106c7a07164ea0db10843f0f3e2.jar" />
+    </item>
+
+</items>
